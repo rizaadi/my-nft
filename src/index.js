@@ -1,7 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './assets/svg/logo-ds.svg';
+import './assets/css/main.css';
+import './assets/css/fonts.css';
+import './assets/css/normalize.css';
+import './assets/css/nice-select2.css';
+import './assets/css/swiper-bundle.css';
+
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
