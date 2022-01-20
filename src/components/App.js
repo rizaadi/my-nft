@@ -1,5 +1,7 @@
 import Header from "./header";
 import Main from "./main";
+import View from "./view";
+import Profile from "./profile";
 import Footer from "./footer";
 import React from "react";
 
@@ -9,7 +11,7 @@ class App extends React.Component{
         return(
             <div>
                 <Header />
-                <Main />
+                <Profile />
                 <Footer />
             </div>
         );
