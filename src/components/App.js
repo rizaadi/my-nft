@@ -1,7 +1,9 @@
 import Header from "./header";
 import Main from "./main";
 import View from "./view";
-import Profile from "./profile";
+import Form from "./form";
+import Laporan from "./laporan";
+import Profile from "../views/profile/profile";
 import Footer from "./footer";
 import React from "react";
 
@@ -11,7 +13,7 @@ class App extends React.Component{
         return(
             <div>
                 <Header />
-                <Profile />
+                <Laporan />
                 <Footer />
             </div>
         );
